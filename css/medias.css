@@ -1,0 +1,80 @@
+@media screen and (min-width: 0px) and (max-width: 599px){
+    section .art-recommend{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section .art-categories{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .card-recommend{
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .card-categories{
+        width: 44%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+    section .art-recommend{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section .art-categories{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .card-recommend{
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .card-categories{
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px){
+    section .art-recommend{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    section .art-categories{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .card-recommend{
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .card-categories{
+        width: 20%;
+    }
+}

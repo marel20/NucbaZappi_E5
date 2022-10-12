@@ -13,7 +13,7 @@ main{
     background-color: #131415;
 }
 
-section article{
+section .art-recommend, .art-categories{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
