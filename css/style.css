@@ -239,3 +239,45 @@ section span{
     opacity: .9;
 }
 
+header {
+    background: #131415;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px 0px 30px;
+    position: fixed;
+    top: 0;
+}
+
+.logo{
+    height: 60%;
+}
+
+.navbar,
+.navbarlist {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+
+
+}
+.navbarlist li:first-child  {
+    display: flex;
+    gap: 10px;
+    
+
+  
+}
+
+.icon {
+    color: #FFA100;
+}
+
+.navbarlist a{
+    color: #FFFFFF;
+
+}
