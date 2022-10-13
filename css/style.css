@@ -281,3 +281,29 @@ header {
     color: #FFFFFF;
 
 }
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #131415;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.options{
+    display: flex;
+    gap: 20px;
+}
+footer a, footer p {
+    font-size: 12px;
+    gap: 40px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+footer p span{
+    font-weight: 800;
+    text-transform: uppercase;
+}
