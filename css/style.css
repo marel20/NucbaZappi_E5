@@ -156,6 +156,8 @@ section span{
 
 .popular h3 {
     margin-bottom: 1.5rem ;
+    font-weight: 500;
+    font-size: 22px;
 }
 
 .popular-flex {
