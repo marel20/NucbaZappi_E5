@@ -166,7 +166,7 @@ section span{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .popular-flex img {
@@ -249,6 +249,7 @@ header {
     padding: 0px 30px 0px 30px;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 .logo{
