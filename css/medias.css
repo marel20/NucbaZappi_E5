@@ -77,4 +77,26 @@
     .card-categories{
         width: 20%;
     }
-}
+
+    }
+
+    @media screen and (max-width: 480px) {
+        .titulo{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            width: 90%;
+            height: auto;
+            padding: 100px;
+            margin: 100px;
+        }
+            
+        .zappii{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px;
+            width: 60%;
+        }
+ }
+        
