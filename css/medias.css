@@ -1,19 +1,19 @@
 @media screen and (min-width: 0px) and (max-width: 599px){
-    .titulo{
+    .title{
         flex-direction: column;
         justify-content: flex-start;
         margin: 0px auto;
         padding: 0px !important;
     }
 
-    .zappii{
+    .pizza{
         justify-content: center;
         align-items: center;
         gap: 40px;
         margin: 50px auto 0 auto;
     }
 
-    .zappii h1{
+    .pizza h1{
         width: 90vw;
         font-size: 35px;
         line-height: 90px;
@@ -21,7 +21,7 @@
         padding: 20px;
     }
 
-    .zappii p{
+    .pizza p{
         width: 90vw;
         font-size: 16px;
         line-height: 50px;
@@ -63,7 +63,7 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px){
-    .titulo{
+    .title{
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
@@ -71,14 +71,14 @@
         padding: 0px !important;
     }
 
-    .zappii{
+    .pizza{
         justify-content: center;
         align-items: center;
         gap: 40px;
         margin: 50px auto 0 auto;
     }
 
-    .zappii h1{
+    .pizza h1{
         width: 90vw;
         font-size: 55px;
         line-height: 90px;
@@ -87,7 +87,7 @@
         padding: 20px;
     }
 
-    .zappii p{
+    .pizza p{
         width: 90vw;
         font-size: 18px;
         line-height: 50px;
@@ -96,7 +96,7 @@
         margin-bottom: 60px;
     }
 
-    .zappii .ver-mas{
+    .pizza .see-more{
         padding: 0 20px;
     }
 
@@ -132,7 +132,7 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1100px){
-    .titulo{
+    .title{
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
@@ -140,14 +140,14 @@
         padding: 0px !important;
     }
 
-    .zappii{
+    .pizza{
         justify-content: center;
         align-items: center;
         gap: 40px;
         margin: 50px auto 0 auto;
     }
 
-    .zappii h1{
+    .pizza h1{
         width: 90vw;
         font-size: 55px;
         line-height: 90px;
@@ -156,7 +156,7 @@
         padding: 20px;
     }
 
-    .zappii p{
+    .pizza p{
         width: 90vw;
         font-size: 18px;
         line-height: 50px;
@@ -165,7 +165,7 @@
         margin-bottom: 120px;
     }
 
-    .zappii .ver-mas{
+    .pizza .see-more{
         padding: 0 20px;
     }
 
