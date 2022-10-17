@@ -59,9 +59,8 @@ section .title{
     justify-content:space-between;
     width: 90%;
     max-width: 1024px;
-    padding: 50px;
+    padding: 30px;
     gap: 20px;
-    margin: 30px;
 }
     
 .pizza{
@@ -103,7 +102,7 @@ section .title{
     position: absolute;
     width: 265px;
     height: 265px;
-    left: 920px;
+    left: 830px;
     top: 208px;
 }
 
@@ -111,7 +110,7 @@ section .title{
     position: absolute;
     width: 392px;
     height: 392px;
-    left: 1046px;
+    left: 956px;
     top: 94px;
 }
 
