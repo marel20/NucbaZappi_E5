@@ -1,4 +1,41 @@
 @media screen and (min-width: 0px) and (max-width: 599px){
+    .titulo{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0px auto;
+        padding: 0px !important;
+    }
+
+    .zappii{
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin: 50px auto 0 auto;
+    }
+
+    .zappii h1{
+        width: 90vw;
+        font-size: 35px;
+        line-height: 90px;
+        text-align: justify;
+        padding: 20px;
+    }
+
+    .zappii p{
+        width: 90vw;
+        font-size: 16px;
+        line-height: 50px;
+        text-align: justify;
+        padding: 0 20px;
+        margin-bottom: 60px;
+    }
+
+    .pizzas{
+        display: none;
+        visibility: hidden;
+    }
+    
+    
     section .art-recommend{
         flex-direction: column;
         justify-content: center;
@@ -26,6 +63,48 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px){
+    .titulo{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0px auto;
+        padding: 0px !important;
+    }
+
+    .zappii{
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin: 50px auto 0 auto;
+    }
+
+    .zappii h1{
+        width: 90vw;
+        font-size: 55px;
+        line-height: 90px;
+        text-align: justify;
+        margin: 0px auto;
+        padding: 20px;
+    }
+
+    .zappii p{
+        width: 90vw;
+        font-size: 18px;
+        line-height: 50px;
+        text-align: justify;
+        padding: 0 20px;
+        margin-bottom: 60px;
+    }
+
+    .zappii .ver-mas{
+        padding: 0 20px;
+    }
+
+    .pizzas{
+        display: none;
+        visibility: hidden;
+    }
+
     section .art-recommend{
         flex-direction: column;
         justify-content: center;
@@ -53,6 +132,48 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1100px){
+    .titulo{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0px auto;
+        padding: 0px !important;
+    }
+
+    .zappii{
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin: 50px auto 0 auto;
+    }
+
+    .zappii h1{
+        width: 90vw;
+        font-size: 55px;
+        line-height: 90px;
+        text-align: justify;
+        margin: 0px auto;
+        padding: 20px;
+    }
+
+    .zappii p{
+        width: 90vw;
+        font-size: 18px;
+        line-height: 50px;
+        text-align: justify;
+        padding: 0 20px;
+        margin-bottom: 120px;
+    }
+
+    .zappii .ver-mas{
+        padding: 0 20px;
+    }
+
+    .pizzas{
+        display: none;
+        visibility: hidden;
+    }
+    
     section .art-recommend{
         flex-direction: row;
         justify-content: center;
@@ -78,25 +199,7 @@
         width: 20%;
     }
 
-    }
+}
 
-    @media screen and (max-width: 480px) {
-        .titulo{
-            display: flex;
-            flex-direction: row;
-            justify-content:space-between;
-            width: 90%;
-            height: auto;
-            padding: 100px;
-            margin: 100px;
-        }
-            
-        .zappii{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 15px;
-            width: 60%;
-        }
- }
+
         
