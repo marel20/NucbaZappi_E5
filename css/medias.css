@@ -4,13 +4,17 @@
         justify-content: flex-start;
         margin: 0px auto;
         padding: 0px !important;
+        background: url('../assets/img/pizzasbg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 23vh;
     }
 
     .pizza{
         justify-content: center;
         align-items: center;
         gap: 40px;
-        margin: 50px auto 0 auto;
+        margin: 50px auto 100px auto;
     }
 
     .pizza h1{
@@ -27,7 +31,7 @@
         line-height: 50px;
         text-align: justify;
         padding: 0 20px;
-        margin-bottom: 60px;
+        margin-top: 45%;
     }
 
     .pizzas{
@@ -69,19 +73,23 @@
         align-items: center;
         margin: 0px auto;
         padding: 0px !important;
+        background: url('../assets/img/pizzasbg.png');
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: 13vw 27vh;
     }
 
     .pizza{
         justify-content: center;
         align-items: center;
         gap: 40px;
-        margin: 50px auto 0 auto;
+        margin: 50px auto 100px auto;
     }
 
     .pizza h1{
         width: 90vw;
         font-size: 55px;
-        line-height: 90px;
+        line-height: 80px;
         text-align: justify;
         margin: 0px auto;
         padding: 20px;
@@ -93,7 +101,8 @@
         line-height: 50px;
         text-align: justify;
         padding: 0 20px;
-        margin-bottom: 60px;
+        margin-top: -60px;
+        margin-bottom: 280px;
     }
 
     .pizza .see-more{
@@ -138,13 +147,17 @@
         align-items: center;
         margin: 0px auto;
         padding: 0px !important;
+        background: url('../assets/img/pizzasbg.png');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: 25vw 15vh;
     }
 
     .pizza{
         justify-content: center;
         align-items: center;
         gap: 40px;
-        margin: 50px auto 0 auto;
+        margin: 50px auto 100px auto;
     }
 
     .pizza h1{
@@ -162,7 +175,7 @@
         line-height: 50px;
         text-align: justify;
         padding: 0 20px;
-        margin-bottom: 120px;
+        margin: 230px auto 20px auto;
     }
 
     .pizza .see-more{
